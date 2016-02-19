@@ -149,6 +149,7 @@ public class Bienvenido extends javax.swing.JFrame {
             campoResultado.setText(textoResultado);
         } catch(NumberFormatException nfe ) {
             JOptionPane.showMessageDialog(this, "Sólo se admiten números");
+            System.out.println("");
         }
     }//GEN-LAST:event_botonSumarActionPerformed
 
@@ -163,6 +164,7 @@ public class Bienvenido extends javax.swing.JFrame {
             campoResultado.setText(textoResultado);
         } catch(NumberFormatException nfe ) {
             JOptionPane.showMessageDialog(this, "Sólo se admiten números");
+            System.out.println("");
         }
 
     }//GEN-LAST:event_botonRestarActionPerformed
